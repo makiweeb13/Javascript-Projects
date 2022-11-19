@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <button class="sidebar-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="../Images/logo.svg" class="logo" alt="">
+            <button class="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <ul class="links">
+            <li>
+              <a href="index.html">home</a>
+            </li>
+            <li>
+              <a href="about.html">about</a>
+            </li>
+            <li>
+              <a href="projects.html">projects</a>
+            </li>
+            <li>
+              <a href="contact.html">contact</a>
+            </li>
+            <li class="modes">
+              <a href="../Navbar/index.html">navbar mode</a>
+            </li>
+            <li class="modes">
+              <a href="sidebar.html">sidebar mode</a>
+            </li>
+          </ul>
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.facebook.com">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com">
+                <i class="fab fa-behance"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com">
+                <i class="fab fa-sketch"></i>
+              </a>
+            </li>
+          </ul>
+    </aside>
+    <div class="hero">
+      <div class="modal">
+      <h1>modal project</h1>
+      <button class="btn modal-btn">
+        open modal
+      </button>
+      </div>
+      <div class="modal-overlay">
+        <div class="modal-container">
+          <h3>modal content</h3>
+          <button class="modal-close-btn">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="sidebar.js"></script>
+</body>
+</html>
